@@ -1,7 +1,6 @@
 ---
 driver:
   name: dokken
-  chef_version: 14.12.9
 
 transport:
   name: dokken
@@ -21,6 +20,7 @@ provisioner:
     data_collector.token: 'xe_RKumsewsV-KC1jI1NcjkEJGU='
     verify_api_cert: false
     ssl_verify_mode: :verify_none
+    ohai.optional_plugins: [':Passwd']
 
   ## product_name and product_version specifies a specific Chef product and version to install.
   ## see the Chef documentation for more details: https://docs.chef.io/workstation/config_yml_kitchen/

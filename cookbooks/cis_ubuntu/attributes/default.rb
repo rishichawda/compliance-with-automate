@@ -7,3 +7,4 @@ default['audit']['profiles'] = [
     compliance: 'admin/cis-ubuntu16.04lts-level1-server',
   },
 ]
+

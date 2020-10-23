@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures cis_ubuntu'
 version '0.1.0'
-chef_version '>= 12.14' if respond_to?(:chef_version)
+chef_version '>= 15.0'
 
 depends 'audit'
 
